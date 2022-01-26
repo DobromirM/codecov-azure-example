@@ -16,4 +16,4 @@ Example for setting up CI on Azure with the new Codecov uploader.
    2) Run `base64 -i input-file -w 0 > output.file`
 6) Commit all changes and let the CI run. 
 
-### Important: If you change any of the variables on Azure you need to commit again in order for the CI to use the new ones. Restarting a failed job will use the old variables!
+### Important: If you change the values of the variables on Azure you need to commit again in order for the CI to use the new ones. Restarting a failed job will use the old values!
